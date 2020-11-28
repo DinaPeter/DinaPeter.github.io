@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(77, 37, 9);
+}
+.oldal{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 50px);
+    height: 740px;
+}
+.menu{
+    background-color: burlywood;
+    width: 900px;
+    margin: auto;
+    border-top: 10px solid brown;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    padding: 15px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 1.5em;
+    color: brown;
+}
+a:active{
+    font-size: 1.5em;
+    color: brown;
+}
+.tartalom{
+    background-color: burlywood;
+    margin: auto;
+    border-bottom: 10px solid brown;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    width: 900px;
+    padding: 15px;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
+p{
+    padding: 10px;
+}
+@media screen and (max-width:576px){
+    .oldal{
+        width: 400px;
+    }
+    .menu{
+        width: 300px;
+    }
+    .tartalom{
+        width: 300px;
+    }
+    table{
+        width: 500px;
+    }table>td{
+        width: 400px;
+    }
+    table>tr{
+        width: 400px;
+    }
+    p{
+        width: 500px;
+    }
+    h1{
+        width: 500px;
+    }
+    footer{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1200px){
+    .menu{
+        width: 700px;
+    }
+    .tartalom{
+        width: 700px;
+    }
+}

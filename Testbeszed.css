@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(77, 37, 9);
+}
+.oldal{
+    display: flex;
+    flex-flow: wrap;
+    width: 1000px;
+    margin: auto;
+}
+.menu{
+    background-color: burlywood;
+    width: 900px;
+    margin: auto;
+    border-top: 10px solid brown;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    padding: 15px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 1.5em;
+    color: brown;
+}
+a:active{
+    font-size: 1.5em;
+    color: brown;
+}
+.tartalom{
+    background-color: burlywood;
+    margin: auto;
+    border-bottom: 10px solid brown;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    width: 900px;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+}
+img{
+  width: 200px;
+  height: auto;
+}.idezet:hover{
+    font-weight: bold;
+}
+.idezet{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-style: italic;
+}
+#sor{
+    text-align: center;
+}
+table>td{
+    width: 300px;
+}
+table>tr{
+    width: 300px;
+}
+@media screen and (max-width:576px){
+    .oldal{
+        width: 500px;
+    }
+    .menu{
+        width: 400px;
+    }
+    .tartalom{
+        width: 400px;
+    }
+    table{
+        width: 400px;
+        margin: auto;
+    }table>td{
+        width: 300px;
+    }
+    table>tr{
+        width: 300px;
+    }
+    img{
+        width: 100px;
+        height: auto;
+    }
+}
+@media screen and (max-width:1200px){
+    .menu{
+        width: 700px;
+    }
+    .tartalom{
+        width: 700px;
+    }
+}
