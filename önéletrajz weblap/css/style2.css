@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: blanchedalmond;
+}
+
+.table-light{
+    width: 1200px;
+    margin: auto;
+    border: 2px black solid;
+}
+
+tr{
+    border-bottom: 2px black solid;
+}
+
+th, td{
+    border-right:2px black solid;
+    font-family: "Roboto";
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+}
+
+.nav-link{
+    font-family: "Roboto";
+}
+
+p{
+    font-family: "Roboto";
+}

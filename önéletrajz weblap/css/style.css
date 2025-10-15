@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.fejlec{
+    background-color: burlywood;
+    background-size: cover;
+    height: 500px;
+    color: black;
+    margin: auto;
+}
+
+.fejlec-szoveg{
+    margin-top: 76px;
+}
+
+.fejlec-kep{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 150px;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+}
+
+.nav-link{
+    font-family: "Roboto";
+}
+
+p{
+    font-family: "Roboto";
+}

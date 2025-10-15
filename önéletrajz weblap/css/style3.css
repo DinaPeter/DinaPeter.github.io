@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: blanchedalmond;
+}
+
+.tartalom{
+    margin: auto;
+    width: 1200px;
+}
+
+.col-sm-6{
+    margin-bottom: 30px;
+}
+
+.card{
+    border-radius: 30px;
+}
+
+.card-img-top{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card-text{
+    font-family: "Roboto";
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+}
+
+.nav-link{
+    font-family: "Roboto";
+}
