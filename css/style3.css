@@ -49,8 +49,9 @@ body{
 
 @media (max-width:409px){
     .card{
-        width: 370px;
+        width: 365px;
         margin-bottom: 30px;
+        margin-right: 5px;
     }
     
     .card-img-top{
