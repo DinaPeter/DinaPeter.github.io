@@ -40,13 +40,6 @@ body{
     }
 }
 
-@media (max-width:409px){
-    .card{
-        width: 99%;
-        margin-bottom: 30px;
-    }
-}
-
 @media (min-width:1600px){
     .tartalom{
         width: 1200px;
