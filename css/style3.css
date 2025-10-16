@@ -37,12 +37,6 @@ body{
     font-family: "Roboto";
 }
 
-@media (max-width:410px){
-    .card-img-top{
-        display: none;
-    }
-}
-
 @media (min-width:1599px){
     .card{
         width: 99%;
