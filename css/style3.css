@@ -38,11 +38,6 @@ body{
 }
 
 @media (max-width:410px){
-    .card{
-        width: 99%;
-        margin-bottom: 30px;
-    }
-
     .card-img-top{
         display: none;
     }
