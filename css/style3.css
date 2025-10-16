@@ -44,17 +44,6 @@ body{
     }
 
     .card-img-top{
-        width: 370px;
-    }
-}
-
-@media (max-width:409px){
-    .card{
-        width: 99%;
-        margin-bottom: 30px;
-    }
-    
-    .card-img-top{
         display: none;
     }
 }
