@@ -36,7 +36,7 @@ body{
     font-family: "Roboto";
 }
 
-@media (min-width:1599px){
+@media (max-width:1599px){
     .card{
         width: 99%;
         margin-bottom: 30px;
