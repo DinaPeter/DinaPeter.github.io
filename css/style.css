@@ -41,7 +41,6 @@ p{
 
 @media (max-width:544px){
     .fejlec-kep{
-        width: 200px;
-        height: 200px;
+        display: none;
     }
 }
