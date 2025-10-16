@@ -6,9 +6,14 @@ body{
 }
 
 .table-light{
-    width: 1200px;
     margin: auto;
     border: 2px black solid;
+    background-color: burlywood;
+}
+
+.text{
+    background-color: #51181b;
+    color: white;
 }
 
 tr{
@@ -30,4 +35,18 @@ th, td{
 
 p{
     font-family: "Roboto";
+}
+
+@media (min-width:1600px){
+    .table-light{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:1599px){
+    .table-light{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

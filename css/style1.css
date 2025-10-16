@@ -18,6 +18,10 @@ body{
     font-family: "Oswald";
 }
 
+.card{
+    background-color: burlywood;
+}
+
 .card-text{
     font-family: "Roboto";
 }
@@ -28,4 +32,11 @@ body{
 
 .nav-link{
     font-family: "Roboto";
+}
+
+@media (max-width:575px){
+    .card{
+    width: 545px;
+    margin-bottom: 30px;
+    }
 }
