@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/style3.css">
 
     <link rel="stylesheet" href="Bootstrap/premade.min.css">
+
+    <script src="js/projects-filter.js" defer></script>
     <title>Saját projektek</title>
 </head>
 <body>
@@ -42,30 +44,32 @@
     </nav>
 
     <!-- Tartalom -->
-    <section>
         <div class="container">
             <a class="anchor"></a>
             <div class="row">
                 <div class="col-md-8">
-                    <p>Lentebb a saját önálló projekteimről olvashatóak információk.</p>
+                    <p>Az iskolában és a tandolyamokon megszerzett tudás felhasználásával ezeket a projekteket készítettem eddig.</p>
+                    <button class="btn btn-primary me-2 filter-btn" data-filter="all">Összes</button>
+                    <button class="btn btn-primary me-2 filter-btn" data-filter="unity">Unity</button>
+                    <button class="btn btn-primary me-2 filter-btn" data-filter="xamarin">Xamarin</button>
+                    <button class="btn btn-primary me-2 filter-btn" data-filter="web">Web</button>
                 </div>
             </div>
         </div>
-    </section>
 
     <div class="row tartalom">
         <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-category="unity">
                 <img class="card-img-top" src="sakk.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Sakk program</h5>
-                    <p class="card-text">Egy 3D-s majdnem teljes körű (ellenfél AI nincs benne) sakk játék ami Unityben készült C# nyelven.</p>
+                    <p class="card-text">Egy 3D-s teljes körű sakk játék ami Unityben készült C# nyelven.</p>
                     <a href="https://github.com/DinaPeter/sakk.git" target="_blank" class="btn btn-primary">Projekt fileok</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-category="xamarin">
                 <img class="card-img-top" src="todo.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Teendő lista app</h5>
@@ -74,10 +78,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row tartalom">
         <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-category="web">
                 <img class="card-img-top" src="web.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Önéletrajz Weboldal</h5>
